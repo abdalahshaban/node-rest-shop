@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/abdalahshaban/node-rest-shop/issues"
   },
-  "homepage": "https://github.com/abdalahshaban/node-rest-shop#readme"
+  "homepage": "https://github.com/abdalahshaban/node-rest-shop#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "*",
+    "morgan": "^1.9.1"
+  }
 }
